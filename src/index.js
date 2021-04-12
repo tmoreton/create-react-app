@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom'
-import Raven from 'raven-js'
+// import Raven from 'raven-js'
 import './index.css'
 import '@helloinspire/melodic/dist/css/melodic.min.css'
 import AxiosInterceptor from './AxiosInterceptor'
