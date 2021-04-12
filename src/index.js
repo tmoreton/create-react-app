@@ -5,9 +5,9 @@ import '@helloinspire/melodic/dist/css/melodic.min.css'
 import AxiosInterceptor from './AxiosInterceptor'
 import { makeMainRoutes } from './routes'
 
-if (process.env.NODE_ENV !== 'development') {
-  Raven.config(`${process.env.REACT_APP_SENTRY_DSN}`).install()
-}
+// if (process.env.NODE_ENV !== 'development') {
+//   Raven.config(`${process.env.REACT_APP_SENTRY_DSN}`).install()
+// }
 
 AxiosInterceptor()
 
